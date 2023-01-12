@@ -13,9 +13,8 @@ try:
     y2 = float(input('Введите y2: '))
     b = float(input('Введите угол b: '))
 
-    k1 = tan(radians(a+90))  # tan (90+a)
-    k2 = tan(radians(b+90))  # tan (90+b)
-
+    k1 = tan(radians(a+90))
+    k2 = tan(radians(b+90))
     b1 = y1-k1*x1
     b2 = y2-k2*x2
 
@@ -34,7 +33,7 @@ try:
     input()
 except ValueError:
     print(fail)
-    print('пошел нах*й')
+    print('Можно вводить только цифры')
     input()
 except ZeroDivisionError:
     print(fail)
