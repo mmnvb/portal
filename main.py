@@ -1,8 +1,8 @@
 from math import tan, radians
 from cfonts import render
 
-output = render('Portal Finder', colors=['green', 'blue'], align='center')
-print(output)
+fail = render('FAIL', colors=['red', 'yellow'], align='center')
+print(render('Portal Finder', colors=['green', 'blue'], align='center'))
 
 try:
     x1 = float(input('Введите x1: '))
@@ -30,21 +30,17 @@ try:
     final_y = d_y/d
 
     print(f"\nРезультат: {final_x} ~ {final_y}")
-    output = render('FINISHED', colors=['green', 'yellow'], align='center')
-    print(output)
+    print(render('FINISHED', colors=['green', 'yellow'], align='center'))
     input()
 except ValueError:
-    fail = render('FAIL', colors=['red', 'yellow'], align='center')
     print(fail)
     print('пошел нах*й')
     input()
 except ZeroDivisionError:
-    fail = render('FAIL', colors=['red', 'yellow'], align='center')
     print(fail)
     print('Во время работы было деление на ноль')
     input()
 except Exception:
-    fail = render('FAIL', colors=['red', 'yellow'], align='center')
     print(fail)
     print('Что то пошло не так')
     input()
