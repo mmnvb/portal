@@ -1,20 +1,19 @@
 <h1 align='center'>Portal Finder⛏</h1>
-<h3 align='center'>Это хобби проект позволяющий найти портал в Энд используя минимум Око</h3>
- <h2>🎮Как пользоваться?</h2>
+<h3 align='center'>This is a hobby project that allows you to find an End portal using a minimal amount of Eyes of Ender</h3>
+<h2>🎮How to Use?</h2>
 <ol>
- <il>1. Из <b>любой</b> точки кидаем око эндера</il> <br><br>
- <il>2. Наводим курсор прямо на остановившееся око</il><br><br>
-  
+<li>Throw an Eye of Ender from <b>any</b> location</li><br><br>
+<li>Align the cursor directly with the stopped Eye of Ender</li><br><br>
+ 
 ![Общий вид](https://github.com/muminovbob/portal_finder/raw/main/images/1.png)
 ![Общий вид](https://github.com/muminovbob/portal_finder/raw/main/images/2.png)
-  <il>3. Записываем результаты в программу</il><br> <br>
-  <il>4. Повторяем действия в другой точке отойдя от первой точки на приличное расстояние</il><br> <br>
+<li>Record the results in the program</li><br><br>
+<li>Repeat the steps from a different location, moving away from the previous location by a significant distance (the further the more accurate, 500+ blocks in any axis)</li><br><br>
 </ol>
-  <h2>👨‍🔬В чем смысл?</h2>
-  Программа из введенных данных состовляет два линейных уравнения. Точка пересечения этих функций и будет координтами портала. Точка пересечения в свою очередь находится решением системы уравнений методом Крамера используя матрицы. 
-  <h2>🔬Интересная механика</h2>
-  Посмотрев код можно заметить что k уравнения вида y=kx+b находится не просто тангенсом угла a, но еще и +90 градусов. Почему? X Ось в майнкрафте уникальна. Она пренадлежит (♾, -♾) а не наоборот. Вот и приходится делать трюки
-  <h2>💾В exe?</h2>
-  Тут есть сторонняя библиотека <a href='https://pypi.org/project/python-cfonts/'>cfonts</a> для красоты в консоли. Так что при использования pyinstaller укажите директорию venv/lib/cfonts <br><br>
-  
- <i>Было увлекательно разрабатывать, нашли баги? Вам <a href='https://github.com/muminovbob/portal_finder/issues'>сюда</a></i>
+<h2>👨‍🔬How does it work?</h2>
+The program creates two linear equations from the entered data. The point of intersection of these functions represents the coordinates of the portal. The point of intersection is determined by solving the system of equations using the Cramer's rule with matrices.
+<h2>🔬Interesting Mechanics</h2>
+By examining the code, you may notice that the slope (k) in the equation y = kx + b is calculated as the tangent of the angle (a) plus 90 degrees. Why? The X-axis in Minecraft is unique. It belongs to (♾, -♾) instead of the other way around. Hence, some tricks have to be performed.
+<h2>💾Executable (exe) Version?</h2>
+There is a third-party library called <a href='https://pypi.org/project/python-cfonts/'>cfonts</a> used for console styling. So, if you use pyinstaller, make sure to include the venv/lib/cfonts directory.
+<i>It was exciting to develop this project! Found any bugs? Report them <a href='https://github.com/muminovbob/portal_finder/issues'>here</a></i>
