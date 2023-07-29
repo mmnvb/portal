@@ -37,4 +37,4 @@ There is a third-party library called <a href='https://pypi.org/project/python-c
 </ul>
 <hr>
 <p align=center><i>🌟It was exciting to develop this project!
- Feel free to contribute <a href='https://github.com/muminovbob/portal_finder/issues'>here</a></i></p>
+ Feel free to contribute <a href='https://github.com/muminovbob/portal_finder/pulls'>here</a></i></p>
