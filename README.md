@@ -4,11 +4,10 @@
 <ol>
 <li>Throw an Eye of Ender from <b>any</b> location</li><br><br>
 <li>Align the cursor directly with the stopped Eye of Ender</li><br><br>
- 
-![Общий вид](https://github.com/muminovbob/portal_finder/raw/main/images/1.png)
-![Общий вид](https://github.com/muminovbob/portal_finder/raw/main/images/2.png)
+<img src="https://github.com/muminovbob/portal_finder/raw/main/images/1.png"></img>
 <li>Record the results in the program</li><br><br>
 <li>Repeat the steps from a different location, moving away from the previous location by a significant distance (the further the more accurate, 500+ blocks in any axis)</li><br><br>
+<img src="https://github.com/muminovbob/portal_finder/raw/main/images/2.png"></img>
 </ol>
 <h2>👨‍🔬How does it work?</h2>
 <p>The program creates two linear equations from the entered data. The point of intersection of these functions represents the coordinates of the portal. The point of intersection is determined by solving the system of equations using the Cramer's rule with matrices. </p>
