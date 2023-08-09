@@ -20,7 +20,7 @@
 <ul>
  <li><code>git clone https://github.com/muminovbob/portal_finder.git</code></li>
  <li><code>cd portal_finder/rust</code></li>
- <li><code>cargo run</code></li>
+ <li><code>cargo run --release</code></li>
 </ul>
 <p><br></p>
 
