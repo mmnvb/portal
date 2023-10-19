@@ -14,7 +14,7 @@
 <p>By examining the code, you may notice that the slope (k) in the equation y = kx + b is calculated as the tangent of the angle (a) plus 90 degrees. Why? The X-axis in Minecraft is unique. It belongs to (♾, -♾) instead of the other way around. Hence, some tricks have to be performed.</p>
 
 <h2>💾Executable</h2>
-<h3>🦀Rust</h3>
+<h3>🦀Rust (CLI)</h3>
 <i>Size: 239 KB</i>
 
 <ul>
@@ -22,6 +22,7 @@
  <li><code>cd portal_finder/rust</code></li>
  <li><code>cargo run --release</code></li>
 </ul>
+<i>Note that <a href="https://github.com/mmnvb/portal_finder/releases/tag/finder">UI version</a> is also available</i>
 <p><br></p>
 
 <h3>🟦Python</h3>
