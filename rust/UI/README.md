@@ -1,3 +1,3 @@
 # Tauri + Vanilla
 
-This is UI prosto IMBA
+This UI prosto IMBA
