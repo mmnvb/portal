@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <title>Tauri App</title>
+    <script type="module" src="/main.js" defer></script>
+  </head>
+
+  <body>
+    <img id="music_btn" src="assets/juke.png" alt="">
+
+    <div class="container">
+      <img id="logo-img" src="assets/logo.png" alt="">
+
+      <form class="row" id="greet-form">
+        <div class="input-field">
+          <div class="first">
+            <input type="number" step="0.01" id="x1" placeholder="Enter x1" />
+            <input type="number" step="0.01" id="y1" placeholder="Enter y1" />
+            <input type="number" step="0.01" id="a1" placeholder="Enter a1" />
+          </div>
+
+          <div class="second">
+            <input type="number" step="0.01" id="x2" placeholder="Enter x2" />
+            <input type="number" step="0.01" id="y2" placeholder="Enter y2" />
+            <input type="number" step="0.01" id="a2" placeholder="Enter a2" />
+          </div>
+        </div>
+        
+        <button id="click_btn" type="submit">Calculate</button>
+        <p id="greet-msg"></p>
+      </form>
+      <audio id="audio_click" src="assets/sound.mp3">
+      <audio id="audio_back" src="assets/back.mp3" type="audio/mpeg" preload="auto" loop>
+    </div>
+  </body>
+</html>
