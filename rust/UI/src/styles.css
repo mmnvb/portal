@@ -1,5 +1,5 @@
 :root {
-  font-family: PressStart2P, Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -149,13 +149,25 @@ input:focus{
   align-self: center;
 }
 
-#music_btn{
+#music_btn, #change_back{
   width: 4%;
-  position: absolute;
 }
 
 
-#music_btn:hover{
+#music_btn:hover , #change_back:hover{
   transform: scale(1.1);
   transition: .3s ease;
+}
+
+#music_btn:active , #change_back:active{
+  transform: scale(0.9);
+  transition: .3s ease;
+}
+
+.upper_menu{
+  position: absolute;
+
+  width: 97%;
+  display: flex;
+  justify-content: space-between;
 }

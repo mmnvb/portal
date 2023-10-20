@@ -1,6 +1,6 @@
 [package]
 name = "portal_finder_ui"
-version = "1.0.0"
+version = "1.0.1"
 description = "Help you to find the End Portal using Math. Build using Tauri"
 authors = ["mmnbv"]
 license = "MIT"

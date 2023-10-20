@@ -31,7 +31,11 @@ var button = document.getElementById('click_btn');
 var audio = document.getElementById('audio_click');
 var audio_back = document.getElementById("audio_back");
 var img_btn = document.getElementById("music_btn");
+var change_back_btn = document.getElementById("change_back");
+
 var isPlaying = false;
+var backs = ["back.jpg", "back_2.jpg", "back_3.png"];
+var currentBack = 1;
 
 audio.volume = 0.2;
 audio_back.volume = 0.2;
@@ -51,3 +55,7 @@ img_btn.addEventListener("click", function() {
   }
 });
 
+change_back_btn.addEventListener("click", function() {
+  currentBack = (currentBack + 1) % backs.length;
+  document.documentElement.style.backgroundImage = "url('assets/" + backs[currentBack] + "')";
+});
