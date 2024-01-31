@@ -1,4 +1,6 @@
-<h1 align='center'>Portal Finder⛏</h1>
+<h1 align='center'>Portal Finder⛏<br>
+[<a href="https://github.com/mmnvb/portal_finder/releases/tag/v1.0.1">UI version</a>]
+</h1>
 <h3 align='center'>This is a hobby project that allows you to find an End portal using a minimal amount of Eyes of Ender</h3>
 <h2>🎮How to Use?</h2>
 <ol>
@@ -22,7 +24,7 @@
  <li><code>cd portal_finder/rust</code></li>
  <li><code>cargo run --release</code></li>
 </ul>
-<i>Note that <a href="https://github.com/mmnvb/portal_finder/releases/tag/finder">UI version</a> is also available</i>
+<i>Note that <a href="https://github.com/mmnvb/portal_finder/releases/tag/v1.0.1">UI version</a> is also available</i>
 <p><br></p>
 
 <h3>🟦Python</h3>
